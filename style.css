@@ -1,0 +1,36 @@
+.container {
+    max-width: 450px;
+    background-color: rgb(54, 107, 36);
+    margin-top: 11%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#display {
+    height: 50px;
+    background-color: rgb(204, 208, 185);
+    /* color: rgb(233, 54, 54); */
+    font-size: 30px;
+    text-align: right;
+    height: 5rem;
+    width: ;
+}
+
+.buttons {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 2rem;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 3rem;
+}
+.btn{
+/* font-size: 20%; */
+width: auto;
+height: auto;
+border:  solid rgb(248, 246, 246);
+padding: 1%;
+border-radius: 120px;
+color: rgb(251, 253, 255);
+}  
